@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'PT Sans', sans-serif;
+  background: #dfddd2;
+  font-size: 100%;
+}
+
+/* nav bar */
+#brandName{
+  font-size: 4em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  color: #e02525;
+}
+
+#brandName:hover{
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.navbar-nav{
+  background-color: rgba(145, 168, 147, 0.57);
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#mainNav{
+  padding-top: 20px;
+}
+
+.nav-link{
+   text-align: center;
+   color: #214026; 
+   font-size: 1.3rem;
+}
+
+.nav-link:hover{
+  color: #214026;
+  font-weight: 700;
+}
+
+@media only all and (max-width: 600px) {
+  #brandName {
+    font-size: 2.5em;
+  }
+}
+
+.active{
+  font-weight: 700
+  ;
+}
