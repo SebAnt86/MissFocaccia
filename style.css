@@ -112,11 +112,28 @@ body{
   margin: 50px 10px;
 }
 
+.main-sections{
+  margin: 30px 0;
+}
+
 .section-header{
   font-size: 2rem;
   font-weight: 600;
   color: #000000b3;
 }
+
+#readMore{
+  color: #214026;
+  border-color: #214026;
+  background-color: #21402660;
+  border-radius: 15px;
+}
+
+#readMore:hover{
+  background-color: #214026;
+  color: #dfddd2;
+}
+
 
 /* FOOTER */
 #contactSocials{
