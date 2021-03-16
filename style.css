@@ -122,6 +122,25 @@ body{
   color: #000000b3;
 }
 
+.text{
+  color: #212529;
+  font-size: 1rem;
+}
+.text1{
+  color: #212529;
+  font-size: 1.2rem;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+.link:hover{
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* About Section */
 #readMore{
   color: #214026;
   border-color: #214026;
@@ -134,6 +153,15 @@ body{
   color: #dfddd2;
 }
 
+/* Market Section */
+.market-content{
+  padding-top: 20px;
+}
+
+#marketMap{
+  border: 2px solid #21402660;
+  border-radius: 10px;
+}
 
 /* FOOTER */
 #contactSocials{
@@ -162,4 +190,11 @@ body{
 
 .copyright-link:hover{
   color: white;
+}
+
+@media (max-width: 700px) { 
+  #marketMap{
+    width: 250px;
+    height: 200px;
+  }
 }
