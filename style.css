@@ -62,12 +62,6 @@ body{
     color: #214026;
 }
 
-@media only all and (max-width: 600px) {
-  #brandName {
-    font-size: 2.5em;
-  }
-}
-
 /* main */
 
 #mainCarousel{
@@ -86,16 +80,7 @@ body{
   
 }
 
-@media only all and (max-width: 800px) {
-  .carousel-img, .carousel-inner{
-    height: 350px;
-  }
-}
-@media only all and (max-width: 500px) {
-  .carousel-img, .carousel-inner{
-    height: 200px;
-  }
-}
+
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
@@ -120,11 +105,13 @@ body{
   font-size: 2rem;
   font-weight: 600;
   color: #000000b3;
+  margin: 40px 0;
 }
 
 .text{
   color: #212529;
   font-size: 1rem;
+  margin-top: 20px;
 }
 .text1{
   color: #212529;
@@ -175,6 +162,15 @@ body{
   margin: 20px 10px;
 }
 
+/* ABOUT PAGE */
+#aboutImg{
+  height: 25rem;
+  border: 2px solid #21402660;
+  border-radius: 10px;
+}
+
+/* CONTACT PAGE*/
+
 /* FOOTER */
 #contactSocials{
   padding-top: 20px;
@@ -202,6 +198,26 @@ body{
 
 .copyright-link:hover{
   color: white;
+}
+
+
+/* media query */
+
+@media only all and (max-width: 600px) {
+  #brandName {
+    font-size: 2.5em;
+  }
+}
+
+@media only all and (max-width: 800px) {
+  .carousel-img, .carousel-inner{
+    height: 350px;
+  }
+}
+@media only all and (max-width: 500px) {
+  .carousel-img, .carousel-inner{
+    height: 200px;
+  }
 }
 
 @media (max-width: 700px) { 
