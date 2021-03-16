@@ -163,6 +163,18 @@ body{
   border-radius: 10px;
 }
 
+/* Review Section */
+.card{
+  margin: 20px 20px;
+  height: 200px;
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: #f4f3f2;
+}
+.card-text{
+  margin: 20px 10px;
+}
+
 /* FOOTER */
 #contactSocials{
   padding-top: 20px;
