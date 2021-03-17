@@ -124,7 +124,7 @@ body{
 }
 .link:hover{
   text-decoration: underline;
-  color: inherit;
+  color: #214026;
 }
 
 /* About Section */
@@ -141,9 +141,6 @@ body{
 }
 
 /* Market Section */
-.market-content{
-  padding-top: 20px;
-}
 
 #marketMap{
   border: 2px solid #21402660;
@@ -170,6 +167,16 @@ body{
 }
 
 /* CONTACT PAGE*/
+.contact-icon{
+  margin: 10px 30px;
+  color: #214026;
+  font-size: 2.2rem;
+}
+
+.contact{
+  color: #214026;
+  font-size: 1.2rem;
+}
 
 /* FOOTER */
 #contactSocials{
@@ -180,6 +187,8 @@ body{
 .link-social{
   color: #214026;
   font-size: 1.25rem;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .link-social:hover{
   color: #214026;
@@ -203,20 +212,9 @@ body{
 
 /* media query */
 
-@media only all and (max-width: 600px) {
-  #brandName {
-    font-size: 2.5em;
-  }
-}
-
 @media only all and (max-width: 800px) {
   .carousel-img, .carousel-inner{
     height: 350px;
-  }
-}
-@media only all and (max-width: 500px) {
-  .carousel-img, .carousel-inner{
-    height: 200px;
   }
 }
 
@@ -226,3 +224,24 @@ body{
     height: 200px;
   }
 }
+
+@media only all and (max-width: 600px) {
+  #brandName {
+    font-size: 2.5em;
+  }
+}
+
+
+@media only all and (max-width: 500px) {
+  .carousel-img, .carousel-inner{
+    height: 200px;
+  }
+  .contact-icon{
+  font-size: 1.8rem;
+  margin: 10px 10px;
+  }
+  .contact{
+    font-size: 1rem;
+  }
+}
+
