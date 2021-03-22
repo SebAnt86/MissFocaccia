@@ -164,6 +164,7 @@ body{
   height: 25rem;
   border: 2px solid #21402660;
   border-radius: 10px;
+  max-width: 300px;
 }
 
 /* CONTACT PAGE*/
