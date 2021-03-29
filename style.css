@@ -167,6 +167,12 @@ body{
   font-size: 1.3rem;
 }
 
+#socials p{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #212529;
+}
+
 /* FOOTER */
 #contactSocials{
   padding-top: 20px;
