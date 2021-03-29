@@ -31,12 +31,9 @@ body{
 
 .navbar-nav{
   background-color: #91a89391;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
-#mainNav{
-  padding-top: 20px;
-}
 
 .nav-link, .active{
    text-align: center;
@@ -60,6 +57,10 @@ body{
 
 .navbar-light .navbar-nav .nav-link {
     color: #214026;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
 }
 
 /* main */
@@ -118,7 +119,7 @@ body{
   color: #214026;
   border-color: #214026;
   background-color: #21402660;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 #readMore:hover{
@@ -130,7 +131,7 @@ body{
 
 #marketMap{
   border: 2px solid #21402660;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* Review Section */
@@ -138,7 +139,7 @@ body{
   margin: 20px 20px;
   height: 200px;
   max-width: 300px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #f4f3f2;
 }
 .card-text{
@@ -149,7 +150,7 @@ body{
 #aboutImg{
   height: 350px;
   border: 2px solid #21402660;
-  border-radius: 10px;
+  border-radius: 5px;
   max-width: 250px;
 }
 
@@ -201,7 +202,7 @@ body{
 
 @media only all and (max-width: 800px) {
   .carousel-img, .carousel-inner{
-    height: 350px;
+    height: 450px;
   }
 }
 
@@ -212,16 +213,13 @@ body{
   }
 }
 
-@media only all and (max-width: 600px) {
+
+@media only all and (max-width: 500px) {
   #brandName {
     font-size: 2.5em;
   }
-}
-
-
-@media only all and (max-width: 500px) {
   .carousel-img, .carousel-inner{
-    height: 200px;
+    height: 250px;
   }
   .contact-icon{
   font-size: 1.8rem;
